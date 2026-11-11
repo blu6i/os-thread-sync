@@ -1,0 +1,15 @@
+# Build artifacts
+build/
+*.exe
+*.o
+*.obj
+*.a
+*.lib
+*.dll
+
+# IDE / Editors
+.vscode/
+.idea/
+*.swp
+*~
+
