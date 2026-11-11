@@ -5,7 +5,7 @@
 # Компилятор и стандартные флаги
 CC = gcc
 CFLAGS = -Wall -Wextra -std=c11 -Iinclude
-LDFLAGS = -lgdi32 -lcomctl32 -lgdiplus -mwindows
+LDFLAGS = -static -static-libgcc -lgdi32 -lcomctl32 -lgdiplus -mwindows
 
 # Режим отладки (вызов: make DEBUG=1)
 ifeq ($(DEBUG), 1)
