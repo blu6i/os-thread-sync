@@ -15,7 +15,7 @@
 
 ```bash
 git clone https://github.com/blu6i/os-thread-sync.git
-cd os
+cd os-thread-sync
 ```
 
 ---
