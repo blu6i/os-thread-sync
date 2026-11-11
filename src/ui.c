@@ -1673,7 +1673,7 @@ int ui_run(void)
     GdiplusStartupInput gdiplusStartupInput = {1, NULL, FALSE, FALSE};
     GdiplusStartup(&g_gdiplusToken, &gdiplusStartupInput, NULL);
 
-    g_imgWriter = load_png_asset("static/img/biblyotekar.png");
+    g_imgWriter = load_png_asset("static/img/writer.png");
     g_imgReader = load_png_asset("static/img/actor.png");
     g_imgBook = load_png_asset("static/img/book.png");
 
